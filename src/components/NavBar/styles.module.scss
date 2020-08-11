@@ -24,6 +24,8 @@
     padding: 20px 0 20px 0;
     text-decoration: none;
     transition: all 0.5s ease-in-out;
+    width: 50px;
+    height: 50px;
 
     &:hover {
       color: #02b839;
@@ -43,6 +45,18 @@
   }
 
   .githubLogo {
+    margin: 0 10px 0 auto;
+    transition: all 0.2s ease-in-out;
+    &:hover {
+      transform: scale(0.95, 0.95);
+    }
+    img {
+      width: 35px;
+      height: 35px;
+    }
+  }
+
+  .siteLogo {
     margin: 0 10px 0 auto;
     transition: all 0.2s ease-in-out;
     &:hover {

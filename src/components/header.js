@@ -3,6 +3,7 @@ import Link from 'gatsby-link'
 import favicon from '../images/favicon.ico'
 import Helmet from 'react-helmet'
 import GatsbyConfig from '../../gatsby-config'
+import SiteLogo from '../images/logo_transparent.png';
 
 const Header = ({ siteTitle }) => (
   <div className="nav-bar">
@@ -20,26 +21,23 @@ const Header = ({ siteTitle }) => (
 
     <div className="container">
       <div className="nav-items">
-        <span className="brand">{siteTitle}</span>
+        <Link to="/">
+          <img src={SiteLogo} className="brand" alt="Site Logo" />
+        </Link>
         <ul>
           <li>
             <Link to="/" exact="true" activeClassName="active">
-              Home
+              Начало
             </Link>
           </li>
           <li>
             <Link to="/events" exact="true" activeClassName="active">
-              Events
-            </Link>
-          </li>
-          <li>
-            <Link to="/blog" exact="true" activeClassName="active">
-              Blogs
+              Събития
             </Link>
           </li>
           <li>
             <Link to="/team" exact="true" activeClassName="active">
-              Team
+              Екип
             </Link>
           </li>
         </ul>

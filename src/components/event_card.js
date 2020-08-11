@@ -9,7 +9,7 @@ function isUpcoming(date) {
   let today = new Date()
   today.setHours(0, 0, 0, 0)
   if (today < eventDate._d) {
-    return `(Upcoming)`
+    return `(Предстоящ)`
   } else {
     return ``
   }

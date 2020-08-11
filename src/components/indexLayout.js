@@ -7,17 +7,17 @@ import '../sass/index.scss'
 
 const Layout = ({ children }) => (
 	<div id="flexContainer">
-		<Header siteTitle="SOSC"/>
+		<Header siteTitle="Лафче"/>
 		<main>
 			{children}
 		</main>
 		<Footer/>
 	</div>
-	
+
 );
 
 Layout.propTypes = {
 	children: PropTypes.node.isRequired,
 }
-  
+
 export default Layout
