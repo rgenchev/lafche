@@ -35,6 +35,9 @@ const TeamsPage = ({ data }) => (
               <Img
                 fluid={data.radoslavGenchevAvatarImage.childImageSharp.fluid}
                 className="profile-pic"
+                style={{
+                  zIndex: 3
+                }}
               />
 
               <div className="member-details">
