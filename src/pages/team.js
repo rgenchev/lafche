@@ -19,7 +19,7 @@ const TeamsPage = ({ data }) => (
                 fluid={data.yosifGenchevAvatarImage.childImageSharp.fluid}
                 className="profile-pic"
                 style={{
-                  zIndex: 4
+                  zIndex: 3
                 }}
               />
 
