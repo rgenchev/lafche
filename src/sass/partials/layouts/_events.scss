@@ -16,9 +16,11 @@
 
   @media #{$media-mobile} {
     width: 100%;
+    height: 280px;
   }
   @media #{$media-small} {
     width: 100%;
+    height: 280px;
   }
 
   .card-container {
