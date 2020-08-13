@@ -21,7 +21,7 @@ const Header = ({ siteTitle }) => (
 
     <div className="container">
       <div className="nav-items">
-        <Link to="/">
+        <Link to="/" className="brand-link">
           <img src={SiteLogo} className="brand" alt="Site Logo" />
         </Link>
         <ul>

@@ -10,6 +10,11 @@ const IndexPage = props => (
       <div className="container">
         <section className="hero-section">
           <div className="hero-texts">
+            <Img
+              fluid={props.data.imageFirst.childImageSharp.fluid}
+              className="sosc-logo"
+              alt="Lafche logo"
+            />
             <p className="sosc-header">
               Какво е Лафче?
             </p>

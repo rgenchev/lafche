@@ -23,7 +23,7 @@
 .hero-section {
     display: flex;
     flex-direction: row;
-    margin-top: 20px;
+    // margin-top: 20px;
     height: 500px;
     align-items: center;
     justify-content: center;
@@ -33,7 +33,7 @@
         flex-grow: 0;
         flex-direction: column;
         justify-content: center;
-        margin-top: 20px;
+        // margin-top: 20px;
         .sosc-logo {
             width: 80px;
             height: 100px;
@@ -53,14 +53,14 @@
     @media #{$media-mobile} {
         display: flex;
         flex-direction: column;
-        margin-top: 20px;
+        // margin-top: 20px;
         height: auto;
         align-items: center;
     }
     @media #{$media-small} {
         display: flex;
         flex-direction: column;
-        margin-top: 20px;
+        // margin-top: 20px;
         height: auto;
         align-items: center;
     }
@@ -69,7 +69,7 @@
 .hero-section2 {
     display: flex;
     flex-direction: row;
-    margin-top: 20px;
+    // margin-top: 20px;
     height: auto;
     align-items: center;
     justify-content: center;
@@ -95,14 +95,14 @@
     @media #{$media-mobile} {
         display: flex;
         flex-direction: column-reverse;
-        margin-top: 20px;
+        // margin-top: 20px;
         height: auto;
         align-items: center;
     }
     @media #{$media-small} {
         display: flex;
         flex-direction: column-reverse;
-        margin-top: 20px;
+        // margin-top: 20px;
         height: auto;
         align-items: center;
     }
@@ -111,7 +111,7 @@
 .hero-section3 {
     display: flex;
     flex-direction: row;
-    margin-top: 20px;
+    // margin-top: 20px;
     height: auto;
     align-items: center;
     justify-content: center;
@@ -137,14 +137,14 @@
     @media #{$media-mobile} {
         display: flex;
         flex-direction: column;
-        margin-top: 20px;
+        // margin-top: 20px;
         height: auto;
         align-items: center;
     }
     @media #{$media-small} {
         display: flex;
         flex-direction: column;
-        margin-top: 20px;
+        // margin-top: 20px;
         height: auto;
         align-items: center;
     }
@@ -153,7 +153,7 @@
 .hero-section4 {
     display: flex;
     flex-direction: row;
-    margin-top: 20px;
+    // margin-top: 20px;
     height: auto;
     align-items: center;
     justify-content: center;
@@ -179,14 +179,14 @@
     @media #{$media-mobile} {
         display: flex;
         flex-direction: column-reverse;
-        margin-top: 20px;
+        // margin-top: 20px;
         height: auto;
         align-items: center;
     }
     @media #{$media-small} {
         display: flex;
         flex-direction: column-reverse;
-        margin-top: 20px;
+        // margin-top: 20px;
         height: auto;
         align-items: center;
     }

@@ -8,6 +8,17 @@
     z-index: 99;
     box-shadow: 0 2px 6px 0 rgba(0,0,0,0.12);
 }
+
+.brand-link {
+  @media #{$media-mobile} {
+    display: none;
+  }
+
+  @media #{$media-small} {
+    display: none;
+  }
+}
+
 .nav-items {
     display: flex;
     margin: auto;
@@ -35,13 +46,15 @@
       @media #{$media-mobile} {
         font-size: 1.6em;
         padding-top: 20px;
-        margin-left: 20px;
+        width: 30px;
+        height: 30px;
       }
 
       @media #{$media-small} {
         font-size: 1.6em;
         padding-top: 20px;
-        margin-left: 15px;
+        width: 40px;
+        height: 40px;
       }
     }
 
@@ -68,8 +81,6 @@
       }
 
       li {
-
-
         @media #{$media-mobile} {
           flex-grow: 0;
           flex-basis: 25%;
@@ -87,7 +98,7 @@
           margin: 0;
           padding: 25px;
           color: #373738;
-          font-size: 1em;
+          font-size: 0.9em;
 
           :hover {
             color: #02b839;
