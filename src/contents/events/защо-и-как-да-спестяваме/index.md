@@ -20,5 +20,6 @@ feedback_link: ""
 ## Място и час
 Онлайн | 16 Август, 2020 | Неделя | 16:00
 
-## Линк към събитието
-https://meet.jit.si/firstLafcheMeetup
+## Линк към презентацията
+
+https://speakerdeck.com/rgenchev/lafchie-meetup-number-1
