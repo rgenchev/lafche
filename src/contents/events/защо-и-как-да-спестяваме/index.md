@@ -22,4 +22,4 @@ feedback_link: ""
 
 ## Линк към презентацията
 
-https://speakerdeck.com/rgenchev/lafchie-meetup-number-1
+https://speakerdeck.com/rgenchev/lafche-meetup-number-1
