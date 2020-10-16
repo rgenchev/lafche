@@ -3,7 +3,7 @@ slug: /events/защо-и-как-да-спестяваме
 name: Защо и как да спестяваме?
 date: 2020-08-16
 location: Онлайн
-cover: './cover.png'
+cover: 'cover.png'
 link: https://www.facebook.com/events/392647978378494
 feedback_link: ""
 ---
