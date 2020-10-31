@@ -1,8 +1,6 @@
 import React from 'react';
-// import Styles from './styles.module.scss';
 import NavBar from '../NavBar';
 import Footer from '../footer';
-
 
 const ClubsLayout = ({ children }) => {
     return(
