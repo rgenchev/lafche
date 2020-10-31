@@ -2,7 +2,7 @@ import React from 'react'
 
 import Container from '../components/Container'
 
-const Footer = ({ siteTitle }) => (
+const Footer = () => (
   <Container>
     <footer className="bt b--black-10 mt5 pt4 pb4">
       <div className="flex flex-wrap justify-between items-center">
