@@ -4,6 +4,8 @@ import favicon from '../images/favicon.ico'
 import Helmet from 'react-helmet'
 import GatsbyConfig from '../../gatsby-config'
 
+import Container from '../components/Container'
+
 const Header = () => (
   <div className="nav-bar">
     <Helmet
@@ -18,7 +20,7 @@ const Header = () => (
       link={[{ rel: 'shortcut icon', type: 'image/ico', href: `${favicon}` }]}
     />
 
-    <div className="container">
+    <Container>
       <div className="nav-items">
         <Link to="/" className="brand-link">
           <span className="f3 fw5 dib w2 br-100 black">Лафче</span>
@@ -41,7 +43,7 @@ const Header = () => (
           </li>
         </ul>
       </div>
-    </div>
+    </Container>
   </div>
 )
 

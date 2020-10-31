@@ -8,6 +8,7 @@ import Img from 'gatsby-image'
 import feedback from '../../config'
 
 import SEO from '../components/Seo'
+import Container from '../components/Container'
 
 /**
  * Event TEMPLATE
@@ -54,7 +55,7 @@ export default function EventTemplate({ data }) {
       <SEO title={post.frontmatter.name} image={post.frontmatter.cover.publicURL} description={post.excerpt} />
 
       <div className="page">
-        <div className="container">
+        <Container>
           <div className="event-wrapper">
             <div className="event-page">
               <Img fluid={post.frontmatter.cover.childImageSharp.fluid} />
@@ -73,7 +74,7 @@ export default function EventTemplate({ data }) {
             </div>
           </div>
           {getLinkButton()}
-        </div>
+        </Container>
       </div>
     </Layout>
   )

@@ -6,12 +6,14 @@ import { graphql } from 'gatsby'
 
 import SEO from '../components/Seo'
 
+import Container from '../components/Container'
+
 const IndexPage = props => (
   <Layout>
     <SEO title="Начало" />
 
     <div className="page white-bg">
-      <div className="container">
+      <Container>
         <section className="hero-section">
           <div className="hero-texts">
             <Img
@@ -40,8 +42,9 @@ const IndexPage = props => (
             />
           </div>
         </section>
-      </div>
-      <div className="container">
+      </Container>
+
+      <Container>
         <section className="hero-section2">
           <Img
             fluid={props.data.imageTwo.childImageSharp.fluid}
@@ -60,9 +63,9 @@ const IndexPage = props => (
             <Link className="btn-hero-green" to="/events">Научи повече →</Link>
           </div>
         </section>
-      </div>
+      </Container>
 
-      <div className="container">
+      <Container>
         <section className="hero-section3">
           <div className="hero-texts">
             <p className="hero-header">Свържете се с нас!</p>
@@ -80,7 +83,7 @@ const IndexPage = props => (
             alt="hero image"
           />
         </section>
-      </div>
+      </Container>
     </div>
   </Layout>
 )
