@@ -20,12 +20,11 @@ feedback_link: ""
 ## Място и час
 Онлайн | 16 Август, 2020 | Неделя | 16:00
 
-## Линк към презентацията
 
-https://speakerdeck.com/rgenchev/lafche-meetup-number-1
 
 ## Материали
 
+* <a href="https://speakerdeck.com/rgenchev/lafche-meetup-number-1" target="_blank">Презентация</a>
 * <a href="https://www.spendee.com" target="_blank">Spendee</a>
 * <a href="https://www.google.com/sheets/about" target="_blank">Google Sheets</a>
 * <a href="https://www.anylist.com" target="_blank">Anylist</a>
