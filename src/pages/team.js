@@ -3,6 +3,8 @@ import { graphql } from 'gatsby'
 import Layout from '../components/indexLayout'
 import Img from 'gatsby-image'
 
+import SEO from '../components/Seo'
+
 const TeamsPage = ({ data }) => (
   <Layout>
     <SEO title="Екип" />
