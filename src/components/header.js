@@ -3,7 +3,7 @@ import Link from 'gatsby-link'
 import favicon from '../images/favicon.ico'
 import Helmet from 'react-helmet'
 import GatsbyConfig from '../../gatsby-config'
-import SiteLogo from '../images/logo_transparent.png';
+// import SiteLogo from '../images/logo_transparent.png';
 
 const Header = ({ siteTitle }) => (
   <div className="nav-bar">
