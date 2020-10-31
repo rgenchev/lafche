@@ -14,7 +14,7 @@ const TeamsPage = ({ data }) => (
 
         <div class="mw9 center ph3-ns pt5">
           <div class="cf ph2-ns">
-            <div class="fl w-100-m w-50-ns pa2">
+            <div class="fl w-100 w-100-m w-50-ns pa2">
               <article class="mw5 center bg-white br3 pa3 pa4-ns mv3 ba b--black-10">
                 <div class="tc">
                   <Img
@@ -33,7 +33,7 @@ const TeamsPage = ({ data }) => (
               </article>
             </div>
 
-            <div class="fl w-100-m w-50-ns pa2">
+            <div class="fl w-100 w-100-m w-50-ns pa2">
               <article class="mw5 center bg-white br3 pa3 pa4-ns mv3 ba b--black-10">
                 <div class="tc">
                   <Img
