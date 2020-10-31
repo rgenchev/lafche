@@ -1,13 +1,12 @@
 import React from 'react'
 import { graphql } from 'gatsby'
-import GatsbyConfig from '../../gatsby-config'
-import CustomHelmet from '../components/CustomHelmet'
 import Layout from '../components/indexLayout'
 import Img from 'gatsby-image'
 
 const TeamsPage = ({ data }) => (
   <Layout>
-    <CustomHelmet page={GatsbyConfig.siteMetadata.team} />
+    <SEO title="Екип" />
+
     <div className="page">
       <div className="container tc">
         <h1>Екип</h1>
