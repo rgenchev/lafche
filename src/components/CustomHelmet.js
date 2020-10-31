@@ -1,7 +1,6 @@
 import React from 'react'
 import Helmet from 'react-helmet';
 
-
 const CustomHelmet = ({ page, image }) => (
     <Helmet>
         <title>{page.title}</title>
