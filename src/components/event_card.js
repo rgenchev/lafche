@@ -31,61 +31,17 @@ const Card = props => (
               <h2
                 class="f5 mv0"
                 dangerouslySetInnerHTML={{
-                  __html: `${props.date}`
+                  __html: `${props.date} ${isUpcoming(props.date)}`
                 }}
               />
             </div>
           </div>
           <p class="f6 lh-copy mt2 mid-gray">{props.excerpt}</p>
+
         </div>
       </article>
     </Link>
   </div>
-  // <div class="mw9 center ph3-ns">
-  //   <div class="cf ph2-ns">
-  //     <div class="fl w-100 w-50-ns pa2">
-  //       <div class="outline bg-white pv4"></div>
-  //     </div>
-  //     <div class="fl w-100 w-50-ns pa2">
-  //       <div class="outline bg-white pv4"></div>
-  //     </div>
-  //   </div>
-  // </div>
-
-  //  {/* <section class="flex-ns items-center flex-column-m bb b--black-10 justify-center">
-  //    <article className="ml-auto mw-100 mw6-ns mw-100-m br3 hidden ba b--black-10 mv4">
-  //      <div className="mw-90 h5-ns mw8-m pr0-m mt5-m mb5-m mt4 mb5 center">
-  //        <Img fluid={props.cover.childImageSharp.fluid} className="mt3 mw5-m mw5-ns" alt="Card Image Text" />
-  //      </div>
-  //      <div className="pa3 bt b--black-10">
-  //        <p className="f6 f4-ns lh-copy">
-  //          <img src={DateIcon} className="mr1" alt="date icon" />
-  //          <span
-  //             className="mr1"
-  //             dangerouslySetInnerHTML={{
-  //               __html: `${props.date}`,
-  //             }}
-  //           />
-  //         <span>{isUpcoming(props.date)}</span>
-  //       </p>
-  //     </div>
-  //   </article>
-  // </section>
-  // <div className="card elevate white-bg">
-  //   <Link className="card-container" to={props.slug}>
-
-  //      <div className="card-text">
-  //        <h2 className="card-header-text">
-  //          {props.title}
-  //        </h2>
-  //        <div className="card-date black">
-
-
-
-  //        </div>
-  //      </div>
-  //    </Link>
-  //  </div> */}
 )
 
 export default Card
