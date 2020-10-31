@@ -9,7 +9,7 @@ import '../../src/tachyons.min.css'
 
 const Layout = ({ children }) => (
 	<div id="flexContainer">
-		<Header siteTitle="Лафче"/>
+		<Header />
 		<main>
 			{children}
 		</main>
