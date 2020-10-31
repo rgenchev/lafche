@@ -64,7 +64,7 @@ const IndexPage = props => (
             <p className="hero-header">Свържете се с нас!</p>
             <div className="dash" />
             <p>
-              Ако искате да станете част от Лафче или имате какво да споделите с нашата аудитория, бихте могли да се свържете с нас като ни изпратите съобщение във Фейсбук или ни пишете на <a href="mailto:r.genchew@gmail.com">този</a> имейл. :)
+              Ако искате да станете част от Лафче или имате какво да споделите с нашата аудитория, бихте могли да се свържете с нас като ни изпратите съобщение във Фейсбук или ни пишете на <a href="mailto:contact@lafche.club">този</a> имейл. :)
             </p>
             <a href="https://www.facebook.com/lafche.club" target="_blank" rel="noopener noreferrer" className="btn-hero-green">
               Към страницата ни →
