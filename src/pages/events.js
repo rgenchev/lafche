@@ -2,8 +2,8 @@ import React from 'react'
 import Card from '../components/event_card'
 import Layout from '../components/indexLayout'
 import { graphql } from 'gatsby'
-import GatsbyConfig from '../../gatsby-config'
-import CustomHelmet from '../components/CustomHelmet';
+
+import SEO from '../components/Seo'
 
 function getEvents(data) {
   let events = []
@@ -26,7 +26,7 @@ function getEvents(data) {
 
 const EventsPage = ({ data }) => (
   <Layout>
-    <CustomHelmet page={GatsbyConfig.siteMetadata.events} />
+    <SEO title="Събития" />
 
     <div class="mw9 center ph3-ns pt5">
       <div class="cf ph2-ns">

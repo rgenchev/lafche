@@ -4,8 +4,12 @@ import Layout from '../components/indexLayout'
 import Img from 'gatsby-image'
 import { graphql } from 'gatsby'
 
+import SEO from '../components/Seo'
+
 const IndexPage = props => (
   <Layout>
+    <SEO title="Начало" />
+
     <div className="page white-bg">
       <div className="container">
         <section className="hero-section">
