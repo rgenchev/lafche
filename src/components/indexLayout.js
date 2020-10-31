@@ -5,6 +5,8 @@ import Footer from './footer';
 
 import '../sass/index.scss'
 
+import '../../src/tachyons.min.css'
+
 const Layout = ({ children }) => (
 	<div id="flexContainer">
 		<Header siteTitle="Лафче"/>
