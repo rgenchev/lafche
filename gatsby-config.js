@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: 'Лафче',
-    description: ``,
+    description: `Лафче е платформа, която позволява на хора, които имат знания или опит в дадена сфера, да ги споделят със заинтересовани слушатели. Без излишни детайли, по един достъпен и по възможност - забавен начин.`,
     siteUrl: 'https://lafche.club',
     defaultImage: "/images/logo.png",
     events: {
