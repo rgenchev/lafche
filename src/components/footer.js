@@ -1,7 +1,9 @@
 import React from 'react'
 
+import Container from '../components/Container'
+
 const Footer = ({ siteTitle }) => (
-  <div className="container">
+  <Container>
     <footer className="bt b--black-10 mt5 pt4 pb4">
       <div className="flex flex-wrap justify-between items-center">
         <div className="w-50-ns mb0-ns">© {new Date().getFullYear()}, <span className="fw6">Лафче</span></div>
@@ -20,7 +22,7 @@ const Footer = ({ siteTitle }) => (
         </div>
       </div>
     </footer>
-  </div>
+  </Container>
 )
 
 export default Footer
