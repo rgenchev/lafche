@@ -3,7 +3,7 @@ module.exports = {
     title: 'Лафче',
     description: ``,
     siteUrl: 'https://lafche.club',
-    defaultImage: "/images/logo.png",
+    defaultImage: "/logo.png",
     events: {
       title: 'Събития',
       siteUrl: 'https://lafche.club/events',
