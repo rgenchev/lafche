@@ -16,6 +16,7 @@ function getEvents(data) {
         cover={node.frontmatter.cover}
         title={node.frontmatter.name}
         date={node.frontmatter.date}
+        excerpt={node.excerpt}
         key={index}
       />
     )
@@ -26,9 +27,12 @@ function getEvents(data) {
 const EventsPage = ({ data }) => (
   <Layout>
     <CustomHelmet page={GatsbyConfig.siteMetadata.events} />
-    <div className="page">
-      <div className="container">
-        <div className="event-card-container">{getEvents(data)}</div>
+
+    <div class="mw9 center ph3-ns pt5">
+      <div class="cf ph2-ns">
+        <h1 className="tc mt4">Събития</h1>
+
+        <div>{getEvents(data)}</div>
       </div>
     </div>
   </Layout>
@@ -45,6 +49,7 @@ export const eventsQuery = graphql`
       totalCount
       edges {
         node {
+          excerpt(pruneLength: 200)
           frontmatter {
             slug
             name
@@ -54,7 +59,7 @@ export const eventsQuery = graphql`
               childImageSharp {
                 fluid(maxWidth: 1000) {
                   srcSet
-                  ...GatsbyImageSharpFluid_tracedSVG
+                  ...GatsbyImageSharpFluid
                 }
               }
             }
