@@ -22,7 +22,8 @@ const Header = ({ siteTitle }) => (
     <div className="container">
       <div className="nav-items">
         <Link to="/" className="brand-link">
-          <img src={SiteLogo} className="brand" alt="Site Logo" />
+          {/* <img src={SiteLogo} className="brand" alt="Site Logo" /> */}
+          <span className="f3 fw5 dib w2 br-100 black">Лафче</span>
         </Link>
         <ul>
           <li>
