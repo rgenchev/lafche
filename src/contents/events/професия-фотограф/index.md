@@ -31,4 +31,4 @@ feedback_link: ""
 Онлайн | 1 Ноември, 2020 | Неделя | 16:00
 
 ## Линк към видеото
-[Професия 'Фотограф' | Lafche Club Talk #1](https://youtu.be/WBKGlA_khwo)
+<a href="https://youtu.be/WBKGlA_khwo" target="_blank" rel="noopener noreferrer">Професия 'Фотограф' | Lafche Club Talk #1</a>
